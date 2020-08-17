@@ -17,11 +17,10 @@ library = load_library("./lib/emoticons.yml")
 library.each do |meaning, idioms|
       if idioms[:english] == emoticon
          return idioms[:japanese]
-       else 
-          "Sorry, that emoticon was not found"
   end
+  "Sorry, that emoticon was not found"
 end
-end
+
 
 def get_english_meaning
   # code goes here

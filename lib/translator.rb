@@ -13,7 +13,7 @@ emoticons_hash
 end
 
 def get_japanese_emoticon(file_path, emoticon)
-load_library("./lib/emoticons.yml")
+library = load_library("./lib/emoticons.yml")
 
 end
 

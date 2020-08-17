@@ -13,7 +13,7 @@ emoticons_hash
 end
 
 def get_japanese_emoticon(file_path, emoji)
-emoticons = YAML.load_file("lib/emoticons.yml")
+load_library("./lib/emoticons.yml")
 
 end
 

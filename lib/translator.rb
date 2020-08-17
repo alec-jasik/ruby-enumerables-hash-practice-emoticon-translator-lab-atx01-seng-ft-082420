@@ -20,6 +20,7 @@ library.each do |meaning, idioms|
   end
   "Sorry, that emoticon was not found"
 end
+end
 
 
 def get_english_meaning

@@ -19,7 +19,6 @@ load_library("./lib/emoticons.yml")
   end
   "Sorry, that emoticon was not found"
 end
-end
 
 def get_english_meaning
   # code goes here
